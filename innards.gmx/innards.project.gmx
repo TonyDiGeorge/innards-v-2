@@ -6,7 +6,7 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\sprite0</sprite>
+    <sprite>sprites\place_holder</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -15,12 +15,8 @@
   <scripts name="scripts">
     <script>scripts\script0.gml</script>
   </scripts>
-  <fonts name="fonts">
-    <font>fonts\font0</font>
-  </fonts>
-  <objects name="objects">
-    <object>objects\object0</object>
-  </objects>
+  <fonts name="fonts"/>
+  <objects name="objects"/>
   <help>
     <rtf>help.rtf</rtf>
   </help>
