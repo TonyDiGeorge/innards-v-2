@@ -19,12 +19,16 @@
   <scripts name="scripts">
     <script>scripts\scr_menu.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\Title_Font</font>
+  </fonts>
   <objects name="objects">
     <object>objects\Block_Object</object>
     <object>objects\Guy_Throwup_Player</object>
     <object>objects\Menu_Object</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\Title</room>
     <room>rooms\room0</room>
   </rooms>
   <help>
