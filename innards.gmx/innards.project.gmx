@@ -6,7 +6,9 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\place_holder</sprite>
+    <sprite>sprites\guy_Throwup</sprite>
+    <sprite>sprites\guy_placeHolder</sprite>
+    <sprite>sprites\tile_Cementblock</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -15,8 +17,9 @@
   <scripts name="scripts">
     <script>scripts\script0.gml</script>
   </scripts>
-  <fonts name="fonts"/>
-  <objects name="objects"/>
+  <objects name="objects">
+    <object>objects\Cementblock</object>
+  </objects>
   <help>
     <rtf>help.rtf</rtf>
   </help>
