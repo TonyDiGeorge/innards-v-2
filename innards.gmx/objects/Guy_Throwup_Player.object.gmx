@@ -70,11 +70,23 @@ if (place_meeting(x,y+1,Block_Object))
 {
     vsp = key_jump * -jumpspeed
 }
+if (place_meeting(x,y+1,Block_Cement))
+{
+    vsp = key_jump * -jumpspeed
+}
 
 //Horizontal Collision
 if (place_meeting(x+hsp,y,Block_Object))
 {
     while(!place_meeting(x+sign(hsp),y,Block_Object))
+    {
+        x += sign(hsp);
+    }
+    hsp = 0;
+}
+if (place_meeting(x+hsp,y,Block_Cement))
+{
+    while(!place_meeting(x+sign(hsp),y,Block_Cement))
     {
         x += sign(hsp);
     }
@@ -86,6 +98,14 @@ x += hsp;
 if (place_meeting(x,y+vsp,Block_Object))
 {
     while(!place_meeting(x,y+sign(vsp),Block_Object))
+    {
+        y += sign(vsp);
+    }
+    vsp = 0;
+}
+if (place_meeting(x,y+vsp,Block_Cement))
+{
+    while(!place_meeting(x,y+sign(vsp),Block_Cement))
     {
         y += sign(vsp);
     }
