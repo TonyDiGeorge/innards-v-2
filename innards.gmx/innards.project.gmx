@@ -19,6 +19,7 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_menu.gml</script>
+    <script>scripts\scr_pause.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\Title_Font</font>
