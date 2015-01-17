@@ -35,7 +35,6 @@
   <rooms name="rooms">
     <room>rooms\Initialize_Room</room>
     <room>rooms\Title</room>
-    <room>rooms\room0</room>
     <room>rooms\tutorial_room</room>
   </rooms>
   <help>
