@@ -60,7 +60,7 @@
     <instance objName="Block_Object" x="352" y="352" name="inst_9809CC21" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Block_Object" x="608" y="352" name="inst_B2957652" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Block_Object" x="544" y="352" name="inst_76222FBC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Guy_Throwup_Player" x="-32" y="192" name="inst_93BB6F6A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Guy_Throwup_Player" x="96" y="256" name="inst_93BB6F6A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

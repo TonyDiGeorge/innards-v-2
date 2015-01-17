@@ -12,6 +12,7 @@
     <sprite>sprites\Cursur</sprite>
     <sprite>sprites\Guy</sprite>
     <sprite>sprites\sprite5</sprite>
+    <sprite>sprites\sprite6</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -29,11 +30,13 @@
     <object>objects\Guy_Throwup_Player</object>
     <object>objects\Menu_Object</object>
     <object>objects\Pause_Object</object>
+    <object>objects\Block_Cement</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Initialize_Room</room>
     <room>rooms\Title</room>
     <room>rooms\room0</room>
+    <room>rooms\tutorial_room</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
